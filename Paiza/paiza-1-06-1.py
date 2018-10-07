@@ -1,4 +1,4 @@
-# coding: utf-8
+﻿# coding: utf-8
 
 '''
 演習課題「1から6のサイコロを作る」
@@ -13,4 +13,5 @@ randint関数を使用して「サイコロの目は**です。」と出力を�
 '''
 
 import random
-print("サイコロの目は**です。")
+n=random.randint(1,6)
+print("サイコロの目は"+str(n)+  "です。")
